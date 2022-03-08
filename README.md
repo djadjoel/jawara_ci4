@@ -1,4 +1,4 @@
-# CodeIgniter 4 Aplikasi Jawara
+# Aplikasi Jawara CodeIgniter 4
 
 ## CodeIgniter
 
@@ -24,5 +24,5 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ## Supported by:
 
-https://baniakoy.com
-https://bantenhostingmurah.com
+- https://baniakoy.com
+- https://bantenhostingmurah.com
