@@ -6,6 +6,13 @@ class Home extends BaseController
 {
     public function index()
     {
+
+        if(!session()->has('username')){
+            session()->setFlashdata('message', 'Login terlebih dahulu');
+            return redirect()->to('login');
+        }
+
+
         $data = [
             'title' => 'Aplikasi Jawara CI 4',
             'isi' => 'v_home'
